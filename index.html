@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>project 11</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-  <i class="fa-solid fa-person fa-3x"></i>
-  <h1>Lorem, ipsum dolor.</h1>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem sit, animi suscipit ratione aliquid praesentium ad, perferendis numquam quam ducimus eum omnis alias voluptas nobis. Sint minus esse ex hic.</p>
-  <div class="button">click</div>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project 11</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <form class="my-form">
+      <label for="username">name</label>
+      <input id="username" type="text" placeholder="name">
+      <label for="password">password</label>
+      <input id="password" type="password" placeholder="password">
+      <input type="submit">
+    </form>
+    <hr>
+    <form>
+      <label> email
+        <input type="email">
+      </label>
+      <input type="submit">
+    </form>
+    <hr>
+    <form>
+      <fieldset>
+        <legend>hello world</legend>
+      <input type="text" name="username" required/>
+      <input type="password" name="password" placeholder="enter password here" />
+      <input type="color" name="color" disabled/>
+      <input type="email" value="email@email.com"/>
+      <input type="range" />
+      <input type="time" disabled/>
+      <input type="date" />
+      <input type="month" />
+      <input type="search" disabled/>
+      <input type="url" />
+      <input type="datetime-local" />
+      <input type="number" />
+      <input type="tel" />
+      <input type="week" id="" class="" />
+      <textarea placeholder="enter comments" name="comments" cols="30" rows="10"></textarea>
+      <br />
+      <input type="radio" name="day" value="fri"/> friday 
+      <input type="radio" name="day" value="sat" checked/> saturday 
+      <input type="radio" name="day" value="sun" /> sunday
+      <!-- name=sat -->
+      <br />
+      <input type="checkbox" checked/> friday 
+      <input type="checkbox" checked/> saturday 
+      <input type="checkbox" /> sunday
+      <br />
+      <select name="fruit">
+        <option value="apple">apple</option>
+        <option value="orange">orange</option>
+        <option value="kiwi-fruit" selected>kiwi</option>
+      </select>
+      <!-- fruit=orange -->
+
+      <input type="submit">
+    </fieldset>
+    </form>
+  </body>
 </html>

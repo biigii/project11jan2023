@@ -1,24 +1,48 @@
-:root {
-    --primary-color: #0eee16;
-    --secondary-color: #db1ee2;
-    --business-name-font: 'Tilt Prism', cursive;
+/* .my-form { */
+[class="my-form"] {
+  border: 2px solid;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-h1 {
-  background-color: var(--primary-color);
-  font-family: var(-business-name-font);
+/* 0 1 1 */
+.my-form input {
+  /* display: block;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-style: italic;
+  width: 100%; */
 }
 
-p {
-  background-color: var(--primary-color);
+.my-form [type="password"],
+.my-form [type="text"] {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-style: italic;
+  width: 100%;
 }
 
-.button {
-  width: 80px;
-  height: 40px;
-  border: 3px solid var(--primary-color);
-  color: var(--primary-color);
-  font-size: 2rem;
-  background-color: var(--secondary-color);
-  font-family: var(--business-name-font);
+.my-form label {
+  text-transform: capitalize;
+}
+
+/* h1 {} type selector
+.main-heading {} class selector
+#header {} id selector
+[] attribute selector */
+
+[type="submit"] {
+  width: 100px;
+  display: block;
+  /* margin: 0 auto; */
+  /* margin-left: auto;  to push the button to far right*/
+  background-color: #f11;
+  border: none;
+  height: 30px;
+}
+
+[type="email"] {
+  background-color: #f22;
 }
