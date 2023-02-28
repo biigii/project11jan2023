@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #0eee16;
+    --secondary-color: #db1ee2;
+    --business-name-font: 'Tilt Prism', cursive;
+}
+
+h1 {
+  background-color: var(--primary-color);
+  font-family: var(-business-name-font);
+}
+
+p {
+  background-color: var(--primary-color);
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 2rem;
+  background-color: var(--secondary-color);
+  font-family: var(--business-name-font);
+}
